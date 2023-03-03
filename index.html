@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+     <title>java script Date</title>
+</head>
+<body>
+<script>
+//month//
+  let date=new Date();
+  let a=prompt("enter tha month");
+  date.setMonth(a);
+  b=date.getMonth();
+  if(b<=4){
+  document.write("spring");
+  }
+  else if (b<=8){
+  document.write("summer");
+  }
+  else if(b<12){
+  document.write("winter");
+  }
+  else{
+  document.write("no sesion");
+  } 
+</script>
+</body>
+</html>
